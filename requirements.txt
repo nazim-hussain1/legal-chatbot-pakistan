@@ -1,0 +1,9 @@
+flask
+python-dotenv
+pandas
+numpy
+faiss-cpu
+sentence-transformers
+langchain-text-splitters
+langdetect
+openai
