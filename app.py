@@ -34,7 +34,7 @@ executor = ThreadPoolExecutor(max_workers=4)
 # =========================
 # CONFIG
 # =========================
-file_path = r"E:\legal_chatbot\fyp_cleaned_dataset.csv"
+file_path = os.path.join(os.path.dirname(__file__), "fyp_cleaned_dataset.csv")
 INDEX_FILE = "faiss_index.bin"
 CHUNKS_FILE = "chunks.npy"
 
